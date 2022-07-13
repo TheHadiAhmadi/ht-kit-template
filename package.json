@@ -1,0 +1,23 @@
+{
+  "name": "ht-kit-template",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "dev": "rollup -c -w & nodemon output/dev-server.js",
+    "clean": "rimraf output",
+    "build": "rollup -c",
+    "start": "node output/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ht-kit": "^0.0.3",
+    "rollup": "^2.76.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "rimraf": "^3.0.2"
+  }
+}
